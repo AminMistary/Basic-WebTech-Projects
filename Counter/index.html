@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="headpart">
+        <h1>HOME</h1>
+        <h1>GUEST</h1>
+    </div>
+    <div class="scoreboard">
+        <div class=" score">
+            <h1 id="homescore">0</h1>
+        </div>
+        <div class=" score">
+            <h1 id="guestscore">0</h1>
+        </div>
+    </div>
+
+    <div class="btns">
+        <div class="homebtns btnsdiv">
+            <button class="hbtn1" onclick="home1()">+1 </button>
+            <button class="hbtn2" onclick="home2()">+2 </button>
+            <button class="hbtn3" onclick="home3()">+3 </button>
+        </div>
+        <div class="guestbtns btnsdiv">
+            <button class="gbtn1" onclick="guest1()">+1 </button>
+            <button class="gbtn2" onclick="guest2()">+2 </button>
+            <button class="gbtn3" onclick="guest3()">+3 </button>
+        </div>
+    </div>
+
+    <div class="resetbtn">
+        <button id="rbtn" onclick="reset()">Reset Scores</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
